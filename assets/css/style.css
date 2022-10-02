@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #40738a;
 }
 
 #brand-name {
@@ -40,7 +41,6 @@ header {
     height: 2.2em;
     padding: 0.2em;
 }
-
 
 #menu {
     font-size: 120%;
