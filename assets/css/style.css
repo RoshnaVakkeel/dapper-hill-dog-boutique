@@ -12,7 +12,8 @@ body {
     color: #333;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -26,18 +27,18 @@ header {
     margin: 10px 0;
 }
 
-#brand-name {
-    text-decoration: none;  
+.brand-name {
+    text-decoration: none;
     display: flex;
     font-size: 44px;
 }
 
-#brand-name h1 {
-    line-height: 1.3em; 
+.brand-name h1 {
+    line-height: 1.3em;
     font-size: inherit;
 }
 
-#brand-name img {
+.brand-name img {
     height: 2.2em;
     padding: 0.2em;
 }
@@ -83,6 +84,19 @@ header {
     object-fit: cover;
 }
 
+footer {
+    background-color: #40738a;
+    color: whitesmoke;
+}
+
+footer .brand-name {
+    font-size: 20px;
+}
+
+footer .brand-name img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(57deg) brightness(105%) contrast(105%);
+}
+
 #business-info-container {
     display: flex;
 }
@@ -91,6 +105,7 @@ header {
     width: 30%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #map {
