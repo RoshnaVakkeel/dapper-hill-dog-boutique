@@ -27,13 +27,20 @@ header {
 
 #brand-name {
     text-decoration: none;  
+    display: flex;
+    font-size: 44px;
 }
 
 #brand-name h1 {
-    font-size: 280%;
-    margin-left: 30px;
     line-height: 1.3em; 
+    font-size: inherit;
 }
+
+#brand-name img {
+    height: 2.2em;
+    padding: 0.2em;
+}
+
 
 #menu {
     font-size: 120%;
