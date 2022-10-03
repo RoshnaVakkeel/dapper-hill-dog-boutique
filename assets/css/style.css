@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #333;
+    font-size: 20px;
 }
 
 h1,
@@ -90,6 +91,21 @@ header {
     object-fit: cover;
 }
 
+#about-us-section {
+    text-align: center;
+    margin: 75px 0;
+}
+
+#about-us-section h2 {
+    font-size: 38px;
+}
+
+#about-us-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
 footer {
     background-color: #1f4b56;
     color: whitesmoke;
@@ -113,7 +129,6 @@ footer .brand-name img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 125%;
 }
 
 #business-info p {
