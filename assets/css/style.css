@@ -20,6 +20,11 @@ h2 {
     color: #232323;
 }
 
+/* Helper Classes */
+.mt-2 {
+    margin-top: 1em;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -33,14 +38,15 @@ header {
     font-size: 44px;
 }
 
-.brand-name h1 {
+.brand-name h1,
+.brand-name h4 {
     line-height: 1.3em;
     font-size: inherit;
 }
 
 .brand-name img {
     height: 2.2em;
-    padding: 0.2em;
+    padding: 0.25em;
 }
 
 #menu {
@@ -74,8 +80,8 @@ header {
 }
 
 #menu a:hover {
-    color: #40738a;
-    border-bottom: 1px solid #40738a;
+    color: #1f4b56;
+    border-bottom: 1px solid #1f4b56;
 }
 
 #hero-video-section video {
@@ -85,12 +91,13 @@ header {
 }
 
 footer {
-    background-color: #40738a;
+    background-color: #1f4b56;
     color: whitesmoke;
 }
 
 footer .brand-name {
-    font-size: 20px;
+    margin: 1em 0;
+    font-size: 25px;
 }
 
 footer .brand-name img {
@@ -111,6 +118,10 @@ footer .brand-name img {
 
 #business-info p {
     padding: 2px;
+}
+
+#business-info i.fa-solid {
+    padding-right: 10px;
 }
 
 #map {
