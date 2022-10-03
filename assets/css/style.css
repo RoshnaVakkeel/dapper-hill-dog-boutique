@@ -155,7 +155,8 @@ footer .brand-name img {
 
 #social-media-links a {
     color: whitesmoke;
-    padding: 20px 45px;
+    padding: 10px;
+    margin: 10px 35px;
     font-size: 2em;
 }
 
