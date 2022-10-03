@@ -124,6 +124,10 @@ footer .brand-name img {
     padding-right: 10px;
 }
 
+#business-info .no-icon-indent {
+    margin-left: 25px;
+}
+
 #map {
     flex: 1;
 }
@@ -131,6 +135,7 @@ footer .brand-name img {
 #social-media-links {
     display: flex;
     justify-content: center;
+    margin: 20px 20px;
 }
 
 #social-media-links a {
@@ -141,4 +146,5 @@ footer .brand-name img {
 
 #copyright {
     text-align: center;
+    padding-bottom: 10px;
 }
