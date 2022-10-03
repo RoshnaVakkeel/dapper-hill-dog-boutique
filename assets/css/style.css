@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap');
 
+:root {
+    --main-color: #1f4b56;
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -81,8 +85,8 @@ header {
 }
 
 #menu a:hover {
-    color: #1f4b56;
-    border-bottom: 1px solid #1f4b56;
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
 }
 
 #hero-video-section video {
@@ -106,8 +110,37 @@ header {
     padding: 10px 0;
 }
 
+#testimonials-section {
+    display: flex;
+}
+
+.testimonial-card {
+    flex: 1 1 0px;
+}
+
+.testimonial-card .circle-container {
+    width: 70%;
+    padding-bottom: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+#testimonial-1-image {
+    background-image: url(../images/pexels-goochie-poochie-grooming-3361739.jpg);
+}
+
+#testimonial-2-image {
+    background-image: url(../images/pexels-goochie-poochie-grooming-3299905.jpg);
+}
+
+#testimonial-3-image {
+    background-image: url(../images/pexels-goochie-poochie-grooming-3361723.jpg);
+}
+
 footer {
-    background-color: #1f4b56;
+    background-color: var(--main-color);
     color: whitesmoke;
 }
 
@@ -125,7 +158,7 @@ footer .brand-name img {
 }
 
 #business-info {
-    width:30%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
