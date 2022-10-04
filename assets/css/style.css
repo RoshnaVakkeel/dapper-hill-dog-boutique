@@ -125,10 +125,14 @@ section:hover h2 {
 #testimonials-section #testimonials-container {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
+    gap: 3%;
 }
 
 .testimonial-card {
     flex: 1;
+    padding-bottom: 20px;
+
 }
 
 .testimonial-card .circle-container {
@@ -150,6 +154,21 @@ section:hover h2 {
 
 #testimonial-3-image {
     background-image: url(../images/pexels-goochie-poochie-grooming-3361723.jpg);
+}
+
+.testimonial-card p {
+    padding: 20px 5% 0;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+.testimonial-name i {
+    font-size: 120%;
+    padding-right: 10px;
+    color: #3333334d;
+    vertical-align: super;
 }
 
 footer {
@@ -246,7 +265,7 @@ footer .brand-name img {
     }
 }
 
-/* large screens >= 1200px */
+/* extra large screens >= 1200px */
 @media screen and (min-width: 1200px) {
     header {
         max-width: 1300px;
