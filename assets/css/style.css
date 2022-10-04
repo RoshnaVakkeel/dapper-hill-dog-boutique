@@ -21,7 +21,6 @@ h1,
 h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color: #232323;
 }
 
@@ -45,13 +44,13 @@ header {
 
 .brand-name h1,
 .brand-name h4 {
-    line-height: 1.3em;
+    line-height: 1.2em;
     font-size: inherit;
 }
 
 .brand-name img {
-    height: 2.2em;
-    padding: 0.25em;
+    height: 2.05em;
+    padding: 0.2em;
 }
 
 #menu {
@@ -95,13 +94,23 @@ header {
     object-fit: cover;
 }
 
+section h2 {
+    font-size: 38px;
+    text-align: center;
+    border-bottom: 5px solid var(--main-color);
+    width: max-content;
+    padding: 0 10vw;
+    margin: 0 auto 10px;
+    letter-spacing: 2px;
+}
+
+section:hover h2 {
+    color: var(--main-color);
+}
+
 #about-us-section {
     text-align: center;
     margin: 75px 0;
-}
-
-#about-us-section h2 {
-    font-size: 38px;
 }
 
 #about-us-section p {
@@ -110,12 +119,12 @@ header {
     padding: 10px 0;
 }
 
-#testimonials-section {
+#testimonials-section #testimonials-container {
     display: flex;
 }
 
 .testimonial-card {
-    flex: 1 1 0px;
+    flex: 1;
 }
 
 .testimonial-card .circle-container {
