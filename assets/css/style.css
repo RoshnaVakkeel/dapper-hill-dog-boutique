@@ -40,13 +40,14 @@ header {
 .brand-name {
     text-decoration: none;
     display: flex;
-    font-size: 44px;
+    font-size: 34px;
 }
 
 .brand-name h1,
 .brand-name h4 {
     line-height: 1.2em;
     font-size: inherit;
+    white-space: nowrap;
 }
 
 .brand-name img {
@@ -64,6 +65,8 @@ header {
     gap: 30px;
     min-height: 75px;
     align-items: center;
+    flex-direction: column;
+    margin: 15px 0;
 }
 
 #menu li {
@@ -99,7 +102,7 @@ section {
 }
 
 section h2 {
-    font-size: 38px;
+    font-size: 28px;
     text-align: center;
     border-bottom: 5px solid var(--main-color);
     width: max-content;
@@ -226,7 +229,7 @@ footer .brand-name img {
     color: whitesmoke;
     padding: 10px;
     margin: 10px 0;
-    font-size: 2em;
+    font-size: 1.3em;
 }
 
 #copyright {
@@ -236,8 +239,25 @@ footer .brand-name img {
 
 /* small screens >= 576px and < 768px */
 @media screen and (min-width: 576px) {
+    .brand-name {
+        font-size: 44px;
+    }
+
+    #menu ul {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    section h2 {
+        font-size: 38px;
+    }
+
     #testimonials-section #testimonials-container {
         margin: 20px 100px;
+    }
+
+    #social-media-links a {
+        font-size: 2em;
     }
 }
 
