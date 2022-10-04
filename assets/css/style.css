@@ -34,6 +34,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
+    flex-direction: column;
 }
 
 .brand-name {
@@ -50,7 +51,7 @@ header {
 
 .brand-name img {
     height: 2.05em;
-    padding: 0.2em;
+    padding: 0.2em 0.2em 0.2em 0;
 }
 
 #menu {
@@ -60,27 +61,19 @@ header {
 
 #menu ul {
     display: flex;
+    gap: 30px;
+    min-height: 75px;
+    align-items: center;
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 30px;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
     font-weight: 400;
-}
-
-#menu li {
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
 }
 
 #menu a:hover {
@@ -92,6 +85,7 @@ header {
     width: 100%;
     height: 80vh;
     object-fit: cover;
+    object-position: 65% 50%;
 }
 
 section h2 {
@@ -110,7 +104,7 @@ section:hover h2 {
 
 #about-us-section {
     text-align: center;
-    margin: 75px 0;
+    margin: 75px 30px;
 }
 
 #about-us-section p {
@@ -119,8 +113,13 @@ section:hover h2 {
     padding: 10px 0;
 }
 
+#testimonials-section {
+    margin: 75px 30px;
+}
+
 #testimonials-section #testimonials-container {
     display: flex;
+    flex-direction: column;
 }
 
 .testimonial-card {
@@ -154,7 +153,7 @@ footer {
 }
 
 footer .brand-name {
-    margin: 1em 0;
+    margin: 20px 0;
     font-size: 25px;
 }
 
@@ -164,13 +163,14 @@ footer .brand-name img {
 
 #business-info-container {
     display: flex;
+    flex-direction: column;
 }
 
 #business-info {
-    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 0 40px;
 }
 
 #business-info p {
@@ -187,22 +187,55 @@ footer .brand-name img {
 
 #map {
     flex: 1;
+    min-height: 300px;
 }
 
 #social-media-links {
     display: flex;
     justify-content: center;
     margin: 20px 20px;
+    gap: 25px;
 }
 
 #social-media-links a {
     color: whitesmoke;
     padding: 10px;
-    margin: 10px 35px;
+    margin: 10px 0;
     font-size: 2em;
 }
 
 #copyright {
     text-align: center;
     padding-bottom: 10px;
+}
+
+/* small screens >= 576px and < 768px */
+@media screen and (min-width: 576px) {
+    #testimonials-section #testimonials-container {
+        margin: 20px 100px;
+    }
+}
+
+/* medium screens >= 768px and < 992px */
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        margin: 10px 15px;
+    }
+
+    #testimonials-section #testimonials-container {
+        margin: 0;
+        flex-direction: row;
+    }
+}
+
+/* large screens >= 992px and < 1200px */
+@media screen and (min-width: 992px) {
+    footer #business-info-container {
+        flex-direction: row;
+    }
+
+    footer #business-info {
+        width: 30%;
+    }
 }
