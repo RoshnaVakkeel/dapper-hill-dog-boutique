@@ -84,10 +84,16 @@ header {
     border-bottom: 1px solid var(--main-color);
 }
 
-#hero-video-section {
+.hero-section {
     margin: 0;
     width: 100%;
     max-width: 100%;
+}
+
+.hero-image-section {
+    background: no-repeat bottom center;
+    background-size: cover;
+    height: 80vh;
 }
 
 #hero-video-section video {
@@ -95,6 +101,10 @@ header {
     height: 80vh;
     object-fit: cover;
     object-position: 65% 50%;
+}
+
+#hero-image-section-services {
+    background-image: url(../images/fatty-corgi-EpRAM95thHU-unsplash.jpg);
 }
 
 section {
@@ -115,30 +125,27 @@ section:hover h2 {
     color: var(--main-color);
 }
 
-#about-us-section {
-    text-align: center;
-}
-
-#about-us-section p {
+.text-section p {
     max-width: 800px;
     margin: 0 auto;
     padding: 10px 0;
+    text-align: center;
 }
 
-#testimonials-section #testimonials-container {
+.card-container {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
     gap: 3%;
 }
 
-.testimonial-card {
+.card {
     flex: 1;
     padding-bottom: 20px;
 
 }
 
-.testimonial-card .circle-container {
+.card .circle-container {
     width: 70%;
     padding-bottom: 70%;
     border-radius: 50%;
@@ -159,19 +166,35 @@ section:hover h2 {
     background-image: url(../images/pexels-goochie-poochie-grooming-3361723.jpg);
 }
 
-.testimonial-card p {
+#service-1-image {
+    background-image: url(../images/pexels-goochie-poochie-grooming-3361739.jpg);
+}
+
+#service-2-image {
+    background-image: url(../images/pexels-goochie-poochie-grooming-3299905.jpg);
+}
+
+#service-3-image {
+    background-image: url(../images/pexels-goochie-poochie-grooming-3361723.jpg);
+}
+
+.card p {
     padding: 20px 5% 0;
 }
 
-.testimonial-name {
+.card-title {
     font-weight: bold;
 }
 
-.testimonial-name i {
+.card-title i {
     font-size: 120%;
     padding-right: 10px;
     color: #3333334d;
     vertical-align: super;
+}
+
+#services-container {
+    margin-top: 50px;
 }
 
 footer {
@@ -257,7 +280,7 @@ footer .brand-name img {
         font-size: 38px;
     }
 
-    #testimonials-section #testimonials-container {
+    .card-container {
         margin: 20px 100px;
     }
 
@@ -273,7 +296,7 @@ footer .brand-name img {
         margin: 10px 15px;
     }
 
-    #testimonials-section #testimonials-container {
+    .card-container {
         margin: 0;
         flex-direction: row;
     }
