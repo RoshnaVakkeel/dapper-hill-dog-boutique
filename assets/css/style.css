@@ -79,7 +79,7 @@ header {
     font-weight: 400;
 }
 
-#menu a:hover {
+#menu a:hover, #menu a.active {
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
 }
