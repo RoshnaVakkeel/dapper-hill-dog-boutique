@@ -106,6 +106,11 @@ header {
     background-image: url(../images/boney-dHIRbh9En6I-unsplash.jpg);
 }
 
+#hero-image-section-contact {
+    background-image: url(../images/fatty-corgi-EpRAM95thHU-unsplash.jpg);
+    background-position: 38% bottom;
+}
+
 section {
     margin: 75px 30px;
 }
@@ -203,6 +208,53 @@ section:hover h2 {
 
 #services-container .card p:last-child {
     font-weight: 400;
+}
+
+#contact-form-section {
+    display: flex;
+}
+
+#contact-form-image {
+    background: url(../images/pexels-jorge-zapata-1398699.jpg) no-repeat center center;
+    flex: 1;
+    background-size: cover;
+    margin: 30px;
+    border-radius: 6px;
+    filter: brightness(1.04);
+}
+
+#contact-form {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.form-group label {
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.form-group input {
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid #999;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.form-group input:hover,
+.form-group input:active {
+    border-color: var(--main-color);
+    border-width: 2px;
+    padding: 7px 4px;
 }
 
 footer {
