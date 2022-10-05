@@ -237,15 +237,18 @@ footer .brand-name img {
     padding-bottom: 10px;
 }
 
+/* extra small screens >=400 px and < 576px */
+@media screen and (min-width: 400px) {
+    #menu ul {
+        flex-direction: row;
+        margin: 0;
+    }
+}
+
 /* small screens >= 576px and < 768px */
 @media screen and (min-width: 576px) {
     .brand-name {
         font-size: 44px;
-    }
-
-    #menu ul {
-        flex-direction: row;
-        margin: 0;
     }
 
     section h2 {
