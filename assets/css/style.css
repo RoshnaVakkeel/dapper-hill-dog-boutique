@@ -190,6 +190,9 @@ section:hover h2 {
     font-size: 120%;
     padding-right: 10px;
     color: #3333334d;
+}
+
+.fa-quote-left {
     vertical-align: super;
 }
 
