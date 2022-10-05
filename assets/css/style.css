@@ -91,7 +91,7 @@ header {
 }
 
 .hero-image-section {
-    background: no-repeat bottom center;
+    background: no-repeat center center;
     background-size: cover;
     height: 80vh;
 }
@@ -104,7 +104,7 @@ header {
 }
 
 #hero-image-section-services {
-    background-image: url(../images/fatty-corgi-EpRAM95thHU-unsplash.jpg);
+    background-image: url(../images/boney-dHIRbh9En6I-unsplash.jpg);
 }
 
 section {
@@ -155,7 +155,8 @@ section:hover h2 {
 }
 
 #testimonial-1-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3361739.jpg);
+    background-image: url(../images/pexels-pixabay-220938.jpg);
+    background-position-y: 0;
 }
 
 #testimonial-2-image {
@@ -163,19 +164,20 @@ section:hover h2 {
 }
 
 #testimonial-3-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3361723.jpg);
+    background-image: url(../images/pexels-goochie-poochie-grooming-3361722.jpg);
 }
 
 #service-1-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3361739.jpg);
+    background-image: url(../images/fernando-andrade-lhkhh-kdcsw-unsplash.jpg);
+    background-position-y: -25px;
 }
 
 #service-2-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3299905.jpg);
+    background-image: url(../images/pexels-anna-shvets-4588016.jpg);
 }
 
 #service-3-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3361723.jpg);
+    background-image: url(../images/pexels-dominika-roseclay-4884404.jpg);
 }
 
 .card p {
