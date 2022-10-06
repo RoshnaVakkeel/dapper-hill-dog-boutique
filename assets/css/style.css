@@ -227,7 +227,6 @@ section:hover h2 {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
 }
 
 .form-group {
@@ -242,7 +241,7 @@ section:hover h2 {
     padding: 5px;
 }
 
-.form-group input {
+.form-group input, .form-group textarea {
     padding: 8px 5px;
     border-radius: 6px;
     border: 1px solid #999;
@@ -251,10 +250,34 @@ section:hover h2 {
 }
 
 .form-group input:hover,
-.form-group input:active {
+.form-group input:active,
+.form-group textarea:hover,
+.form-group textarea:active {
     border-color: var(--main-color);
     border-width: 2px;
     padding: 7px 4px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 5em;
+}
+
+.form-group .submit-button {
+    border: 1px solid var(--main-color);
+    background-color: whitesmoke;
+    margin: 10px 25%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.form-group.width-50 {
+    width: 49%;
+    margin-right: 2%;
+}
+
+.form-group.width-50 + .form-group.width-50 {
+    margin-right: 0;
 }
 
 footer {
