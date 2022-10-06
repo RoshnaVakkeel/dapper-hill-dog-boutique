@@ -212,15 +212,19 @@ section:hover h2 {
 
 #contact-form-section {
     display: flex;
+    flex-direction: column;
+    gap: 75px;
 }
 
 #contact-form-image {
     background: url(../images/pexels-jorge-zapata-1398699.jpg) no-repeat center center;
     flex: 1;
-    background-size: cover;
-    margin: 30px;
-    border-radius: 6px;
+    background-size: contain;
     filter: brightness(1.04);
+    min-height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 #contact-form {
@@ -266,18 +270,9 @@ section:hover h2 {
 .form-group .submit-button {
     border: 1px solid var(--main-color);
     background-color: whitesmoke;
-    margin: 10px 25%;
+    margin: 30px 25%;
     text-transform: uppercase;
     cursor: pointer;
-}
-
-.form-group.width-50 {
-    width: 49%;
-    margin-right: 2%;
-}
-
-.form-group.width-50 + .form-group.width-50 {
-    margin-right: 0;
 }
 
 footer {
@@ -370,6 +365,15 @@ footer .brand-name img {
     #social-media-links a {
         font-size: 2em;
     }
+
+    .form-group.width-50 {
+        width: 49%;
+        margin-right: 2%;
+    }
+    
+    .form-group.width-50 + .form-group.width-50 {
+        margin-right: 0;
+    }
 }
 
 /* medium screens >= 768px and < 992px */
@@ -393,6 +397,16 @@ footer .brand-name img {
 
     footer #business-info {
         width: 30%;
+    }
+
+    #contact-form-section {
+        flex-direction: row;
+    }
+
+    #contact-form-image {
+        width: auto;
+        background-size: cover;
+        border-radius: 6px;
     }
 }
 
