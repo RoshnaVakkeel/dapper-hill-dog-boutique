@@ -218,17 +218,15 @@ section:hover h2 {
 
 #contact-form-image {
     background: url(../images/pexels-jorge-zapata-1398699.jpg) no-repeat center center;
-    flex: 1;
     background-size: contain;
     filter: brightness(1.04);
-    min-height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     margin: 0 auto;
     border-radius: 50%;
 }
 
 #contact-form {
-    flex: 1;
     display: flex;
     flex-wrap: wrap;
 }
@@ -346,6 +344,11 @@ footer .brand-name img {
         flex-direction: row;
         margin: 0;
     }
+
+    #contact-form-image {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 /* small screens >= 576px and < 768px */
@@ -403,8 +406,14 @@ footer .brand-name img {
         flex-direction: row;
     }
 
+    #contact-form {
+        flex: 1;
+    }
+
     #contact-form-image {
+        flex: 1;
         width: auto;
+        height: auto;
         background-size: cover;
         border-radius: 6px;
     }
