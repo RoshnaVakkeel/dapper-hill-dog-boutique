@@ -103,11 +103,11 @@ header {
 }
 
 #hero-image-section-services {
-    background-image: url(../images/boney-dHIRbh9En6I-unsplash.jpg);
+    background-image: url(../images/hero-image-services.webp);
 }
 
 #hero-image-section-contact {
-    background-image: url(../images/fatty-corgi-EpRAM95thHU-unsplash.jpg);
+    background-image: url(../images/hero-image-contact.webp);
     background-position: 38% bottom;
 }
 
@@ -159,29 +159,29 @@ section:hover h2 {
 }
 
 #testimonial-1-image {
-    background-image: url(../images/pexels-pixabay-220938.jpg);
+    background-image: url(../images/testimonials-image-1.webp);
     background-position-y: 0;
 }
 
 #testimonial-2-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3299905.jpg);
+    background-image: url(../images/testimonials-image-2.webp);
 }
 
 #testimonial-3-image {
-    background-image: url(../images/pexels-goochie-poochie-grooming-3361722.jpg);
+    background-image: url(../images/testimonials-image-3.webp);
 }
 
 #service-1-image {
-    background-image: url(../images/fernando-andrade-lhkhh-kdcsw-unsplash.jpg);
+    background-image: url(../images/services-image-1.webp);
     background-position-y: -25px;
 }
 
 #service-2-image {
-    background-image: url(../images/pexels-anna-shvets-4588016.jpg);
+    background-image: url(../images/services-image-2.webp);
 }
 
 #service-3-image {
-    background-image: url(../images/pexels-dominika-roseclay-4884404.jpg);
+    background-image: url(../images/services-image-3.webp);
 }
 
 .card p {
@@ -217,7 +217,7 @@ section:hover h2 {
 }
 
 #contact-form-image {
-    background: url(../images/pexels-jorge-zapata-1398699.jpg) no-repeat center center;
+    background: url(../images/contact-image-pug.webp) no-repeat center center;
     background-size: contain;
     filter: brightness(1.04);
     height: 220px;
@@ -315,7 +315,7 @@ footer .brand-name img {
 #map {
     flex: 1;
     min-height: 300px;
-    background: url(../images/map.png) no-repeat center center;
+    background: url(../images/map.webp) no-repeat center center;
     background-size: cover;
 }
 
