@@ -43,7 +43,7 @@ header {
 }
 
 .brand-name h1,
-.brand-name h4 {
+.brand-name h3 {
     line-height: 1.2em;
     font-size: inherit;
     white-space: nowrap;
