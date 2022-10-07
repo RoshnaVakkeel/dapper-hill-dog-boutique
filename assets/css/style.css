@@ -92,12 +92,12 @@ header {
 .hero-image-section {
     background: no-repeat center center;
     background-size: cover;
-    height: 80vh;
+    height: 65vh;
 }
 
 #hero-video-section video {
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     object-fit: cover;
     object-position: 65% 50%;
 }
