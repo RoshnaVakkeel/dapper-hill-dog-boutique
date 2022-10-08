@@ -169,7 +169,7 @@ Wireframes were created for the mobile and desktop version of the website with t
 ![W3C HTML Validator](assets/docs/validators/w3c-html-validator.png)  
 There were no errors found using the W3C HTML Validator.
 #### CSS  
-![W3C CSS Validator](assets/docs/validators/w3c-css-validator.png)  
+![W3C CSS Validator](assets/docs/validators/w3c-css-validator.png)
 There were no errors found using the W3C CSS Validator.
 #### Lighthouse  
 ![Lighthouse Audit](assets/docs/validators/lighthouse-audit.png)  
@@ -179,6 +179,7 @@ I used the Chrome Lighthouse tool and received optimal scores for performance, a
 #### Fixed Bugs  
 - Hero video didn't show the first frame as a placeholder until the video was completely loaded. Fixed by placing a poster attribute.
 - The Hero video only played in fullscreen on ios devices. Fixed by adding a 'playsinline' attribute.
+- After compressing the hero video with a modern compression method, the video stopped playing on multiple devices. Fixed by reverting back to a more widely supported compression method.
 #### Unfixed bugs  
 There are no unfixed bugs.
 
