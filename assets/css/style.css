@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Oswald&display=swap');
 
 :root {
     --main-color: #1f4b56;
@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 300;
     color: #333;
     font-size: 20px;
@@ -207,7 +207,7 @@ header {
 }
 
 #services-container .card p:last-child {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #contact-form-section {
