@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Oswald&display=swap');
 
+/* General styling */
+
 :root {
     --main-color: #1f4b56;
 }
@@ -23,10 +25,12 @@ h2 {
     color: #232323;
 }
 
-/* Helper Classes */
+/* Helper classes */
 .mt-2 {
     margin-top: 1em;
 }
+
+/* Navigation bar styling */
 
 header {
     display: flex;
@@ -35,6 +39,8 @@ header {
     margin: 10px 0;
     flex-direction: column;
 }
+
+/* Logo styling */
 
 .brand-name {
     text-decoration: none;
@@ -53,6 +59,8 @@ header {
     height: 2.05em;
     padding: 0.2em 0.2em 0.2em 0;
 }
+
+/* Page menu */
 
 #menu {
     font-size: 120%;
@@ -83,6 +91,8 @@ header {
     border-bottom: 1px solid var(--main-color);
 }
 
+/* Hero section styling */
+
 .hero-section {
     margin: 0;
     width: 100%;
@@ -111,6 +121,8 @@ header {
     background-position: 38% bottom;
 }
 
+/* General section styling */
+
 .section {
     margin: 75px 30px;
 }
@@ -135,6 +147,8 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+
+/* Card container styling (Testimonial and Services) */
 
 .card-container {
     display: flex;
@@ -202,6 +216,8 @@ header {
     vertical-align: super;
 }
 
+/* Individual section styling */
+
 #services-container {
     margin-top: 50px;
 }
@@ -209,6 +225,8 @@ header {
 #services-container .card p:last-child {
     font-weight: 500;
 }
+
+/* Contact form styling */
 
 #contact-form-section {
     display: flex;
@@ -272,6 +290,8 @@ header {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+/* Footer styling */
 
 footer {
     background-color: var(--main-color);
@@ -338,7 +358,8 @@ footer .brand-name img {
     padding-bottom: 10px;
 }
 
-/* extra small screens >=400 px and < 576px */
+/* Extra small screens >=400 px and < 576px */
+
 @media screen and (min-width: 400px) {
     #menu ul {
         flex-direction: row;
@@ -351,7 +372,8 @@ footer .brand-name img {
     }
 }
 
-/* small screens >= 576px and < 768px */
+/* Small screens >= 576px and < 768px */
+
 @media screen and (min-width: 576px) {
     .brand-name {
         font-size: 44px;
@@ -379,7 +401,8 @@ footer .brand-name img {
     }
 }
 
-/* medium screens >= 768px and < 992px */
+/* Medium screens >= 768px and < 992px */
+
 @media screen and (min-width: 768px) {
     header {
         flex-direction: row;
@@ -392,7 +415,8 @@ footer .brand-name img {
     }
 }
 
-/* large screens >= 992px and < 1200px */
+/* Large screens >= 992px and < 1200px */
+
 @media screen and (min-width: 992px) {
     footer #business-info-container {
         flex-direction: row;
@@ -419,7 +443,8 @@ footer .brand-name img {
     }
 }
 
-/* extra large screens >= 1200px */
+/* Extra large screens >= 1200px */
+
 @media screen and (min-width: 1200px) {
     header {
         max-width: 1140px;
