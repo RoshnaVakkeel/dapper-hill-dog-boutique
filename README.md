@@ -184,19 +184,26 @@ I used the Chrome Lighthouse tool and received optimal scores for performance, a
 There are no unfixed bugs.
 
 ## Deployment  
-The site was deployed using GitHub pages.   
+The site was deployed using GitHub pages. 
 
-The live link can be found here [Dapper Hill Dog Boutique](https://cushione.github.io/dapper-hill-dog-boutique)  
+The steps are as follows:
+- Navigate to the settings tab in the GitHub repository.
+- In the settings, navigate to the 'Pages' tab on the left of the page.
+- In the 'Build and deployment' section, select 'Deploy from a branch' in the source dropdown.
+- Select branch 'main' and click on 'Save'.
+
+
+The live link can be found here: [Dapper Hill Dog Boutique](https://cushione.github.io/dapper-hill-dog-boutique)  
 
 ## Credits  
 
-- The video clips used in the hero video are from [mixkit.co](https://mixkit.co/) and were edited and cut with [Clipchamp](https://clipchamp.com/en/)
-- The hero images on the services and contact page and the first image in the services section of the dog wrapped in a towel are from [Unsplash](https://unsplash.com/)
+- The video clips used in the hero video are from [mixkit.co](https://mixkit.co/) and were edited and cut with [Clipchamp](https://clipchamp.com/en/).
+- The hero images on the services and contact page and the first image in the services section of the dog wrapped in a towel are from [Unsplash](https://unsplash.com/).
 - All the images in the testimonials, the last two images in the services section and the image of the pug on the contact page are from [Pexels](https://www.pexels.com/).
-- The image of the map is a screenshot taken from [Google Maps](https://www.google.com/maps)
-- The icons in the footer, testimonials and services section were taken from [FontAwesome](https://fontawesome.com/)
-- The fonts are imported from [Google Fonts](https://fonts.google.com/)
-- The favicon was generated using [favicon.io](https://favicon.io/) with an emoji graphic of a poodle from the open-source project [Twemoji](https://twemoji.twitter.com/)
+- The image of the map is a screenshot taken from [Google Maps](https://www.google.com/maps).
+- The icons in the footer, testimonials and services section were taken from [FontAwesome](https://fontawesome.com/).
+- The fonts are imported from [Google Fonts](https://fonts.google.com/).
+- The favicon was generated using [favicon.io](https://favicon.io/) with an emoji graphic of a poodle from the open-source project [Twemoji](https://twemoji.twitter.com/).
 
 ## Acknowledgments
 
