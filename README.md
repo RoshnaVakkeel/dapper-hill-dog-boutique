@@ -35,6 +35,7 @@ This website targets pet owners interested in dog grooming and high-quality dog 
   * [Validation](#validation)
   * [Bugs](#bugs)
 * [Deployment](#deployment)
+  * [Development process](#development-process)
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
 
@@ -166,13 +167,13 @@ Wireframes were created for the mobile and desktop version of the website with t
 
 ### Validation  
 #### HTML  
-![W3C HTML Validator](assets/docs/validators/w3c-html-validator.png)  
-There were no errors found using the W3C HTML Validator.
+![W3C HTML Validator](assets/docs/validators/w3c-html-validator.png)     
+There were no errors found on any page using the W3C HTML Validator.
 #### CSS  
-![W3C CSS Validator](assets/docs/validators/w3c-css-validator.png)
-There were no errors found using the W3C CSS Validator.
+![W3C CSS Validator](assets/docs/validators/w3c-css-validator.png)  
+There were no errors found in the stylesheet using the W3C CSS Validator.
 #### Lighthouse  
-![Lighthouse Audit](assets/docs/validators/lighthouse-audit.png)  
+![Lighthouse Audit](assets/docs/validators/lighthouse-audit.png)   
 I used the Chrome Lighthouse tool and received optimal scores for performance, accessibility, best practices and SEO.
 
 ### Bugs  
@@ -184,16 +185,25 @@ I used the Chrome Lighthouse tool and received optimal scores for performance, a
 There are no unfixed bugs.
 
 ## Deployment  
+
 The site was deployed using GitHub pages. 
 
-The steps are as follows:
+The steps to activate Github pages are as follows:
 - Navigate to the settings tab in the GitHub repository.
 - In the settings, navigate to the 'Pages' tab on the left of the page.
 - In the 'Build and deployment' section, select 'Deploy from a branch' in the source dropdown.
 - Select branch 'main' and click on 'Save'.
 
 
-The live link can be found here: [Dapper Hill Dog Boutique](https://cushione.github.io/dapper-hill-dog-boutique)  
+The live link can be found here: [Dapper Hill Dog Boutique](https://cushione.github.io/dapper-hill-dog-boutique)
+
+### Development process
+
+- I started the program and repository by using the [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) provided by the Code Insitute.  
+- Then I regularly staged my changes using the command `git add <filename>` and then committed the staged changes to my local repository using `git commit -m 'short descriptive message here'`. 
+- Finally, I would push the commits from my local repository up to the Github repository using the command `git push`.
+- With every push, Github automatically deploys my latest commit from the 'main' branch to the Github pages.
+
 
 ## Credits  
 
