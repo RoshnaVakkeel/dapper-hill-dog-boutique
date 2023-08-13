@@ -4,7 +4,9 @@
 
 Dapper Hill Dob Boutique is an online presence for an award-winning dog salon in London, UK. 
 
-This website targets pet owners interested in dog grooming and high-quality dog hygiene products. It provides new clients with business information, customer testimonials, and various services on offer. 
+This website targets pet owners interested in dog grooming and high-quality dog hygiene products. It provides new clients with business information, customer testimonials, and various services on offer.
+
+I highly recommend this website to all!!
 
 ![Dapper Hill Dog Boutique Website shown on a range of devices](assets/docs/website-mockup.png)
 
